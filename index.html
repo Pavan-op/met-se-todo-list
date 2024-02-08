@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>To Do list</title>
+   <link rel="stylesheet" href="./css/index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body > 
+
+ <section class="image" >   
+    <div class="but"><button type="button" id="todo" class="add">Add todo</button> </div>
+    <section class="mrg"><div class="todo"><h1>TODO</h1></div></section>    
+</section>
+
+        <section class="txt">
+            <ul class="list">
+                <li><h2>Complete HTML Learning <i class="fa-solid fa-trash"></i></h2>
+                    <p>Learn all html tage,learn new artical tag</p></li>
+                <li><h2>Learn map method()<i class="fa-solid fa-trash"></i></h2>
+                <p>Learn how to implement map method in java script</p> </li>
+                <li><h2>Take notes<i class="fa-solid fa-trash"></i></h2><p>take notes regarging css fundamentals</p></li>
+                <li><h2>Water plants<i class="fa-solid fa-trash"></i></h2><p>Water all plants in garden</p></li>
+            </ul>
+        </section>
+
+        <section class="popup d-none">
+            <label for="">Todo Name</label>
+            <input id="Todo" type="text" placeholder="">
+            <label for="">Description</label>
+            <textarea type="text" id="Description" rows="5" placeholder=""></textarea>
+            <label for="">Priority</label>
+            <select name="" id="Priority">
+                <option value="">High</option>
+                <option value="">Average</option>
+                <option value="">Low</option>
+            </select>
+            <!-- <input id="Priority" type="text" placeholder=""> -->
+            <div class="btn"><button type="button" id="save_btn">Save</button></div>
+        </section>
+ <script src="./java/index.js"></script>
+</body>
+</html>
